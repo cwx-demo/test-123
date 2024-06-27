@@ -1,0 +1,27 @@
+name: test-123
+id: 'ari:cloud:compass:b1356765-b339-450f-8abd-cfafe53d4736:component/e7b528d6-aa71-4a5a-bee7-dbec72489e9f/24535dae-11f1-45f7-ba4d-9cd357f1101f'
+description: Lorem ipsum
+configVersion: 1
+typeId: SERVICE
+ownerId: 'ari:cloud:identity::team/0bfe80e7-528b-4808-827e-b04e47c2796d'
+fields:
+  tier: 4
+links:
+  - name: test-123
+    type: REPOSITORY
+    url: 'https://github.com/cwx-demo/test-123'
+relationships:
+  DEPENDS_ON:
+    - 'ari:cloud:compass:b1356765-b339-450f-8abd-cfafe53d4736:component/e7b528d6-aa71-4a5a-bee7-dbec72489e9f/a38351b4-8400-4466-b056-af7b79b7c2c0'
+labels:
+  - synced-with-jsm
+customFields:
+  - name: Data encrypted at rest
+    type: text
+    value: null
+  - name: Data encrypted in transit
+    type: text
+    value: null
+  - name: Last security review
+    type: text
+    value: null
